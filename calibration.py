@@ -13,7 +13,7 @@ class Experiment(EventEmitter):
         # run the superclass constructor
         EventEmitter.__init__(self)
         
-        # constructor
+        # create constructor
         self.win = None
         self.draw_queue = []
         self.active_aois=[]
